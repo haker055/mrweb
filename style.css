@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    animation-name: sakra;
+    animation-duration: 5s;
+    transform: rotate(720deg);
+}
+/*
+@keyframes sakra {
+    from {
+        background-color: rgb(255, 0, 0);
+        margin-left: 0px;
+    }
+
+    to {
+
+        background-color: black;
+
+        margin-left: 200px;
+        transform: rotate(720deg);
+        transition: 3s;
+        color: WHITE;
+    }
+
+}*/
+@keyframes sakra {
+    20%{
+        margin-top: 200px;
+    }
+    40%{
+        margin-top: 0px;
+    }
+}
